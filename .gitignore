@@ -1,0 +1,20 @@
+# Project exclude paths
+/.gradle/
+/app/build/generated/not_namespaced_r_class_sources/
+/app/build/intermediates/annotation_processor_list/
+/app/build/intermediates/apk_list/
+/app/build/intermediates/blame/
+/app/build/intermediates/compatible_screen_manifest/
+/app/build/intermediates/incremental/
+/app/build/intermediates/instant_run_merged_manifests/
+/app/build/intermediates/javac/
+/app/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/
+/app/build/intermediates/merged_manifests/
+/app/build/intermediates/processed_res/
+/app/build/intermediates/res/
+/app/build/intermediates/split_list/
+/app/build/intermediates/symbols/
+/app/build/intermediates/transforms/
+/app/build/kotlin/
+/app/build/outputs/
+/app/build/tmp/

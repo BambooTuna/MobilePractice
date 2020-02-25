@@ -18,3 +18,16 @@
 /app/build/kotlin/
 /app/build/outputs/
 /app/build/tmp/
+
+.gradle/
+local.properties
+
+# IntelliJ IDEA project files
+.idea/
+*.ipr
+*.iml
+
+build/
+
+.DS_Store
+/captures

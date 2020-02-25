@@ -7,7 +7,6 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.constraint.ConstraintLayout
 import android.widget.Button
-import android.widget.TextView
 import android.widget.LinearLayout
 import android.view.View
 

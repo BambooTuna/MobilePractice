@@ -22,7 +22,7 @@ $ ./gradlew build
 $ ./gradlew clean
 ```
 
-## エミュレーター
+## 手動エミュレーターテスト
 `$ export ANDROID_SDK_HOME=~/Library/Android/sdk`
 
 - デバイス一覧
@@ -44,3 +44,12 @@ $ ${ANDROID_SDK_HOME}/emulator/emulator -avd 4_WVGA_Nexus_S_API_29
 ```bash
 $ ${ANDROID_SDK_HOME}/platform-tools/adb install ./app/build/outputs/apk/debug/app-debug.apk
 ```
+
+
+## エラー
+```
+New Gradle Sync is not supported due to containing Kotlin modules
+
+error: cause: invalid type code: 00
+```
+[対策](https://stackoverflow.com/questions/52570334/how-can-i-fix-this-error-in-android-studio-cause-invalid-type-code-00)
